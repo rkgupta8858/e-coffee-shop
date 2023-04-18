@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background-image: url("image/background.jpg"), url("image/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom left , top right;
+    background-size: 25%;
+}
+
+.head1{
+    background-color: rgb(55, 29, 1);
+    height: 50px;
+}
+.head2{
+    color: rgb(31, 206, 31);
+    text-align: center;
+}
+.header{
+    display:flex;
+}
+.head3{
+    width: 50%;
+}
+.imghead{
+    width: 100px;
+}
+.head4{
+     color: brown;
+     width: 45%;
+     font-size: 25px;
+     text-align:right;
+     word-spacing: 20px;
+     padding-top: 30px;
+}
+.head4 a{
+    text-decoration: none;
+}
+.head4 a:hover{
+    color: #ffff;
+    background-color: rgba(118, 41, 0, 0.83);
+}
+.front{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.front1{
+    width:35%;  
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px; 
+    margin-left: 20px;   
+}
+.front2{
+    width: 65%;
+}
+.front3{
+    display: block;
+    width: 620px;
+}
+
+/* booking Start  */
+
+.booking{
+    text-align: center;
+}
+.booking a{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(0, 231, 15);
+    background-color: rgb(83, 47, 0);
+}
+.booking a:hover{
+    background-color: rgba(255, 0, 0, 0.83);
+    color: #ffff;
+    font-size: 45px;
+}
+.form{
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    border: 1px solid black;
+    margin-left: 23%;    
+    background-color: aquamarine;
+}
+.form h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(86, 36, 0);
+}
+.form div label{
+    margin-right: 50px;  
+    margin-inline-start: 20px;
+}
+.form div input{
+    height: 35px;   
+}
+
+input[type="text"]{
+    width: 230px;
+    height: 30px;
+}
+form div{
+    margin: 15px;
+    font-size: 22px;
+}
+.submit{
+    font-size: 22px;
+}
+
+/* booking End  */
+
+/* main start */
+.material{
+    display: flex;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.material1{
+    margin: 5px;
+    width: 33%;
+}
+.material1:hover{
+    /* background-color: red; */
+    box-shadow:5px 5px 20px 20px rgb(94, 53, 0);
+}
+.img1, .img4{
+    width: 480px;
+    height: 487px;
+}
+.img2,.img3, .img5, .img6{
+    width: 482px;
+    height: 487px;
+}
+
+/* main end */
+
+/* About Us Start */
+
+.about{
+    text-align: center;
+    margin-top: 80px;
+}
+.about p{
+    font-size: 30px;
+    color: rgba(79, 58, 1, 0.926);
+}
+.about h1{
+    font-size: 50px;
+}
+.about1{ 
+    display: flex;
+    /* border: 2px solid red; */
+}
+.story{
+    /* border: 2px solid red; */
+    width: 37%;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.btn1{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.imgabout1{
+    width: 350px;
+}
+.vision{
+    width: 37%;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* About Us End  */
+
+
+/* Footer Start  */
+
+.footer{
+    display: flex;
+    background-color: rgb(164, 131, 0);   
+}
+.footer1, .footer2, .footer3{
+    width:33%;
+    color:black;
+    text-align: center;
+    padding: 70px;
+}
+.footer p{
+    font-size: 25px;
+}  
+.footer h1{
+    padding: 25px;
+    font-size:40px;
+}
+/* Footer End */
+
+/* contact us start  */
+
+.cont{
+    display: flex;
+    height: 500px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.cont1, .cont2{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: 10px; 
+
+}
+.cont11{
+    width:375px;
+}
+.cont1 h1, .cont2 h1{
+     margin-top:200px;
+     margin-left: 40px;
+}
+/* contact us end  */
+
+/* Media Query start */
+
+@media(max-width:600px) {
+    .head4{
+        font-size:12px;  
+     }
+     .imghead{
+        width: 50px;
+    }
+    .font{
+        background-color: aqua;
+        height: 200px;
+    }
+    .front1{
+        font-size: 20px;
+        margin:auto;
+    }
+    .front3{
+        width: 280px;
+    }
+    .booking a{
+        font-size: 20px;
+    }
+    .booking a:hover{
+        font-size: 25px;
+    }
+    .img1, .img4{
+        width: 130px;
+        height: 137px;
+    }
+    .img2,.img3, .img5, .img6{
+        width: 132px;
+        height: 137px;
+    }
+    .price{
+        font-size: 10px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+    .story, .vision{
+        font-size: 11px;
+    }
+    .imgabout1{
+        width: 150px;
+        margin-top:50px;
+    }
+    .btn1{
+        font-size: 12px;
+    }
+    .material{
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right:3px;
+    }
+    .footer1, .footer2, .footer3{
+        width:33%;
+        color:black;
+        text-align: center;
+        padding:2px;
+    }
+    .footer p{
+        font-size: 11px;
+    }  
+    .footer h1{
+        font-size:15px;
+    }
+    .footer3 h2{
+        font-size: 13px;
+    }
+    .cont{
+        height:300px;
+    }
+    .cont1, .cont2{
+        display: flex;
+        width: 50%;
+        height: 220px;
+        margin: 2px; 
+    }
+    .cont11{
+        width:175px;
+    }
+    .cont1 h1, .cont2 h1{
+         margin-top:100px;
+         margin-left: 5px;
+         font-size: 10px;
+    }
+}
+@media(min-width:600px) {
+    .head4{
+        font-size:15px;  
+     }
+     .imghead{
+        width: 65px;
+    } 
+    .front1{
+        font-size: 25px;
+        margin: auto;
+    }
+    .front3{
+        width: 440px;
+    }
+    .booking a{
+        font-size: 25px;
+    }
+    .booking a:hover{
+        font-size: 30px;
+    }
+    .img1, .img4{
+        width: 180px;
+        height: 187px;
+    }
+    .img2,.img3, .img5, .img6{
+        width: 182px;
+        height: 187px;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .about p{
+        font-size: 21px;
+    }
+    .about h1{
+        font-size: 35px;
+    }
+    .story, .vision{
+        font-size: 15px;
+    }
+    .imgabout1{
+        width: 200px;
+    }
+    .btn1{
+        font-size: 16px;
+    }
+    .material{
+        margin-top: 25px;
+        margin-left: 6px;
+        margin-right:6px;
+    }
+    .footer1, .footer2, .footer3{
+        width:33%;
+        color:black;
+        text-align: center;
+        padding:2px;
+    }
+    .footer p{
+        font-size: 16px;
+    }  
+    .footer h1{
+        padding: 16px;
+        font-size:25px;
+    }
+    .cont1, .cont2{
+        display: flex;
+        width: 50%;
+        height: 300px;
+        margin: 4px; 
+    
+    }
+    .cont11{
+        width:225px;
+    }
+    .cont1 h1, .cont2 h1{
+         margin-top:120px;
+         margin-left: 10px;
+         font-size: 15px;
+    }
+}
+@media(min-width:768px) {
+    .head4{
+        font-size:17px;  
+     }
+     .imghead{
+        width: 80px;
+    }
+    .front1{
+        font-size: 30px;
+        margin: auto;
+    } 
+    .front3{
+        width: 520px;
+    }
+    .booking a{
+        font-size: 30px;
+    }
+    .booking a:hover{
+        font-size: 35px;
+    }
+    .img1, .img4{
+        width: 280px;
+        height: 287px;
+    }
+    .img2,.img3, .img5, .img6{
+        width: 282px;
+        height: 287px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 24px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .story, .vision{
+        font-size: 22px;
+    }
+    .imgabout1{
+        width: 250px;
+    }
+    .btn1{
+        font-size: 19px;
+    }
+    .material{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right:10px;
+    }
+    .footer1, .footer2, .footer3{
+        width:33%;
+        color:black;
+        text-align: center;
+        padding:2px;
+    }
+    .footer p{
+        font-size: 19px;
+    }  
+    .footer h1{
+        padding: 19px;
+        font-size:30px;
+    }
+    .cont1, .cont2{
+        display: flex;
+        width: 50%;
+        height: 350px;
+        margin: 6px; 
+    
+    }
+    .cont11{
+        width:275px;
+    }
+    .cont1 h1, .cont2 h1{
+         margin-top:150px;
+         margin-left: 20px;
+         font-size: 20px;
+    }
+}
+@media(min-width:992px) {
+     .head4{
+        font-size:20px;  
+     }
+     .imghead{
+        width: 100px;
+    }
+    .front1{
+        font-size: 35px;
+    }
+    .front3{
+        width: 570px;
+    }
+    .booking a{
+        font-size: 35px;
+    }
+    .booking a:hover{
+        font-size: 40px;
+    }
+    .img1, .img4{
+        width: 380px;
+        height: 387px;
+    }
+    .img2,.img3, .img5, .img6{
+        width: 382px;
+        height: 387px;
+    }  
+    .price{
+        font-size: 28px;
+    }
+    .about p{
+        font-size: 27px;
+    }
+    .about h1{
+        font-size: 45px;
+    }
+    .story, .vision{
+        font-size: 26px;
+    }
+    .imgabout1{
+        width: 300px;
+    }
+    .btn1{
+        font-size: 22px;
+    }
+    .material{
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right:15px;
+    }
+    .footer1, .footer2, .footer3{
+        width:33%;
+        color:black;
+        text-align: center;
+        padding:2px;
+    }
+    .footer p{
+        font-size: 22px;
+    }  
+    .footer h1{
+        padding: 22px;
+        font-size:35px;
+    }
+    .cont1, .cont2{
+        display: flex;
+        width: 50%;
+        height: 400px;
+        margin: 8px; 
+    
+    }
+    .cont11{
+        width:325px;
+    }
+    .cont1 h1, .cont2 h1{
+         margin-top:150px;
+         margin-left: 30px;
+         font-size: 25px;
+    }
+}
+@media(min-width:1200px) {
+    .head4  {
+        font-size: 25px;  
+     }
+     .imghead{
+        width: 120px;
+    } 
+    .front1{
+        font-size: 40px;
+    }
+    .front3{
+        width: 620px;
+    }
+    .booking a{
+        font-size: 40px;
+    }
+    .booking a:hover{
+        font-size: 45px;
+    }
+    .img1, .img4{
+        width: 480px;
+        height: 487px;
+    }
+    .img2,.img3, .img5, .img6{
+        width: 482px;
+        height: 487px;
+    }    
+    .price{
+        font-size: 33px;
+    }
+    .about p{
+        font-size: 30px;
+    }
+    .about h1{
+        font-size: 50px;
+    }
+    .story, .vision{
+        font-size: 30px;
+    }
+    .imgabout1{
+        width: 350px;
+    }
+    .btn1{
+        font-size: 25px;
+    }
+    .material{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right:20px;
+    }
+    .footer1, .footer2, .footer3{
+        width:33%;
+        color:black;
+        text-align: center;
+        padding:2px;
+    }
+    .footer p{
+        font-size: 25px;
+    }  
+    .footer h1{
+        padding: 25px;
+        font-size:40px;
+    }
+    .cont1, .cont2{
+        display: flex;
+        width: 50%;
+        height: 500px;
+        margin: 10px; 
+    
+    }
+    .cont11{
+        width:375px;
+    }
+    .cont1 h1, .cont2 h1{
+         margin-top:200px;
+         margin-left: 40px;
+    }
+}
+/* Mwdia Query End  */
